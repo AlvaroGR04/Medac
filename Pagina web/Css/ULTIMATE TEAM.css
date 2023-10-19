@@ -30,7 +30,7 @@ nav ul li:hover {
     background: green;
   }
   body {
-    background-image:url("IMAGENES/Ultimate team/FondoUltimate.jpg");
+    background-image:url("/imagenes/Ultimate team/FondoUltimate.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

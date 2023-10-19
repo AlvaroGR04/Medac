@@ -30,7 +30,7 @@ nav ul li:hover {
     background: green;
   }
   body {
-    background-image:url("IMAGENES/Clubs/CLUBS.webp");
+    background-image:url("/imagenes/Clubs/CLUBS.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
