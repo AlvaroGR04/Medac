@@ -1,0 +1,107 @@
+head {
+    background: none;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+nav {
+    float:center;
+    text-align: center;
+  }
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+nav ul li a {
+    display: block;
+    padding: 10px 50px 10px 50px; 
+    color: #fff;
+    text-decoration: none;
+  }
+nav ul li:hover {
+    background: green;
+  }
+  body {
+    background-image:url("IMAGENES/Ultimate team/FondoUltimate.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.Imagen {
+  font-family: CruyffSans,system-ui,helvetica,arial,sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0;
+    margin-block-start: 7em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0px;
+}
+h1 {
+  font-family: CruyffSans,system-ui,helvetica,arial,sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0;
+    margin-block-start: -1em;
+    margin-block-end: 0.67em;
+    margin-inline-start:-0.5em;
+    margin-inline-end: 0px;
+}
+h3 {
+    font-family: CruyffSans,system-ui,helvetica,arial,sans-serif;
+      font-size: 1,5em;
+      font-weight: 900;
+      text-align: center;
+      padding: 0;
+      margin-block-start: -1em;
+      margin-block-end: 0.67em;
+      margin-inline-start:-0.5em;
+      margin-inline-end: 0px;
+  }
+.tablapequeña {
+    float:center;
+    text-align: center;
+  }
+  
+.tablapequeña ul {
+    list-style: none;
+    overflow: hidden;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start:27.5em;
+    margin-inline-end: 0px; 
+  }
+  
+.tablapequeña ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+  }
+.tablapequeña ul li a {
+  font-family: CruyffSans,system-ui,helvetica,arial,sans-serif;
+  display: block;
+  background-color: black;
+  border: 1px solid black;
+  text-decoration:solid;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start:1em;
+  margin-inline-end: 0px;
+  }
+.tablapequeña li:hover {
+    background: green;
+  } 
