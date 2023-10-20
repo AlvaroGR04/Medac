@@ -29,7 +29,7 @@ nav ul li:hover {
     background: green;
   }
   body {
-    background-image:url("/imagenes/fondo3.png");
+    background-image:url("/Pagina web/imagenes/fondo3.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

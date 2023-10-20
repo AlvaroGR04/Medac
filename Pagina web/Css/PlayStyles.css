@@ -30,9 +30,46 @@ nav ul li:hover {
     background: green;
   }
   body {
-    background-color: black;
+    background-image:url("/Pagina web/imagenes/Ultimate team/PlayStyle/FondoPlayStyle.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1; 
+  }
+  .content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  h3{
+    list-style: none;
+    overflow: hidden;
+    display: block;
+    padding: 8px 8px 8px 8px; 
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden; 
+    background: green;
+    margin-block-start: 40em;
+    margin-block-end: 0.0em;
+    margin-inline-start:0em;
+    margin-inline-end: 0px;
   }
