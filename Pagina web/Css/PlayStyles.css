@@ -30,7 +30,6 @@ nav ul li:hover {
     background: green;
   }
   body {
-    background-image:url("/Pagina web/imagenes/Ultimate team/PlayStyle/FondoPlayStyle.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,4 +71,11 @@ nav ul li:hover {
     margin-block-end: 0.0em;
     margin-inline-start:0em;
     margin-inline-end: 0px;
+  }
+  footer{
+    text-align: right;
+    margin-inline-start: 80em;
+    margin-inline-end: 1em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
   }

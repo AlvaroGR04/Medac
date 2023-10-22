@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <font COLOR="white">
+        <center>
+        <img src="/Pagina web\imagenes\LOGOS EA 1.png" alt="Logo EA FC 24" height="43,5" width="183,4">
+        <header><h1>REGISTRO</h1></header>
+        </center>    
+        <link rel="stylesheet" href="/Pagina web/Css/EA FC 24.css"/>
+        <nav>
+            <ul>
+                <li><img src="/Pagina web\imagenes\LOGOS EA 2.png" alt="LOGO EA FC" height="70" width="69,5"></li>
+                <h2><li><a href="EA FC 24.html">INICIO</a></li></h2>
+                <h2><li><a href="ULTIMATE TEAM.html">ULTIMATE TEAM</a></li></h2>
+                <h2><li><a href="CLUBS.html">CLUBS</a></li></h2>
+                <h2><li><a href="MODO CARRERA.html">MODO CARRERA</a></li></h2>
+                <h2><li><a href="ULTIMATE TEAM.html">VUELTA ATRAS</a></li></h2>
+            </ul>
+            
+        </nav>
+</head>
+<body>
+    <ol>
+        <h2><li>Introduzca sus datos como ponemos aqui en orden para registrarse</li></h2>
+        <h2><li>Primero el Nombre</li></h2>
+        <h2><li>Segundo los Apellidos</li></h2>
+        <h2><li>Despues el Email</li></h2>
+        <h2><li>Y por ultimo el Teléfono</li></h2>
+    </ol>
+    <form action="procesar_formulario.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]+" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+    <footer>
+        <pre>
+            <h3>
+            CREADOR DE LA PAGINA
+
+            Nombre:                              ÁLVARO
+            Apellidos:               GALLARDO RODRÍGUEZ
+            Gmail: alvarogallardorodrigues791@gmail.com
+            Residencia:                  SEVILLA,ESPAÑA
+            </h3>
+        </pre>
+    </footer> 
+</body>
+</html>
