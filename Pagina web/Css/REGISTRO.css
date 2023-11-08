@@ -1,0 +1,100 @@
+head {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+nav {
+    float:center;
+    text-align: center;
+  }
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+nav ul li a {
+    display: block;
+    padding: 10px 50px 10px 50px; 
+    color: #fff;
+    text-decoration: none;
+  }
+nav ul li:hover {
+    background: green;
+}
+* {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  body {
+    background-image: url('/paGINA WEB/imagenes/FONDO PRINCIPAL.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+.REGISTRO {
+    width: 400px;
+    background:none;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 1px 9px 13px 6px #000;
+  }
+  
+.Registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+.controles {
+    width: 100%;
+    background:#161616;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #07f468;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+.REGISTRO p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+.REGISTRO a {
+    color: white;
+    text-decoration: none;
+  }
+  
+.REGISTRO a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+.REGISTRO .botones {
+    width: 100%;
+    background: #07f468;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

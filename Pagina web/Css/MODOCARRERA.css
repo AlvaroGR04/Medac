@@ -45,14 +45,30 @@ h1{
     margin-block-start: 5em;
     margin-block-end: 0em;
 }
-h4{
-    text-align: right;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2em;
-    margin-inline-start: 0em;
-    margin-inline-end: 10em;
-    margin-block-start: 0em;
-    margin-block-end: 16em;    
+.CARRERA {
+  text-align: center;
+}
+
+.CARRERA ul {
+  list-style: none;
+  overflow: hidden; 
+  margin-inline-end: 19em;
+  margin-block-end: 24em;
+}
+
+.CARRERA ul li {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+.CARRERA ul li a {
+  display: block;
+  padding: 10px 50px 10px 50px; 
+  color: #fff;
+  text-decoration: none;
+}
+.CARRERA ul li:hover {
+  background: green;
 }
 footer{
   text-align: right;
